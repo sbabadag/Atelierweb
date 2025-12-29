@@ -30,14 +30,14 @@ function HomePage() {
           </Link>
         </div>
         <div className="h-[769px] relative shrink-0 w-[430.978px]">
-          <img alt="Perfume" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full rounded-lg" src="/assets/ab379c6805cdd93959d9ba28a902c9d27f94af20.png" />
+          <img alt="Perfume" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full rounded-lg" src={`${import.meta.env.BASE_URL}assets/ab379c6805cdd93959d9ba28a902c9d27f94af20.png`} />
         </div>
       </div>
 
       {/* Welcome Section */}
       <div className="flex flex-col gap-[10px] h-[564px] items-center justify-center w-full max-w-[1440px] mx-auto mt-20 px-4">
         <div className="relative w-[1440px] h-[564px] rounded-lg overflow-hidden">
-          <img alt="Welcome" className="absolute inset-0 w-full h-full object-cover" src="/assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png" />
+          <img alt="Welcome" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png`} />
           <div className="absolute inset-0 bg-black/70"></div>
           <div className="absolute content-stretch flex flex-col h-[446px] items-center justify-center left-[102px] p-[10px] top-[57px] w-[1237px]">
             <div className="absolute content-stretch flex items-center justify-center left-[163px] p-[10px] top-[55px] w-[903px]">
@@ -53,7 +53,7 @@ function HomePage() {
       {/* Our Values Section */}
       <div className="flex gap-[81px] h-[575px] items-center justify-center w-full max-w-[1440px] mx-auto mt-20 px-4">
         <div className="h-[573px] relative shrink-0 w-[670px]">
-          <img alt="Our Values" className="absolute inset-0 w-full h-full object-cover rounded-lg" src="/assets/665522442dff5abde7b906cceff2c5dfc175c24d.png" />
+          <img alt="Our Values" className="absolute inset-0 w-full h-full object-cover rounded-lg" src={`${import.meta.env.BASE_URL}assets/665522442dff5abde7b906cceff2c5dfc175c24d.png`} />
         </div>
         <div className="content-stretch flex flex-col gap-[32px] items-center not-italic relative shrink-0 text-white w-[587px]">
           <p className="font-satoshi font-medium leading-normal relative shrink-0 text-[50px] text-nowrap">
@@ -79,7 +79,7 @@ function HomePage() {
             {[1, 2, 3, 4].map((i) => (
               <div key={i} className="relative shrink-0 w-[260px]">
                 <div className="h-[442px] relative w-[260px] bg-gradient-to-b from-transparent to-black/50 rounded-lg overflow-hidden">
-                  <img alt="Product" className="absolute inset-0 w-full h-full object-cover" src={`/assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png`} />
+                  <img alt="Product" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png`} />
                 </div>
                 <div className="flex flex-col gap-[8px] items-center justify-center mt-4 not-italic relative text-nowrap">
                   <p className="font-satoshi font-medium leading-normal relative shrink-0 text-[20px] text-white">
@@ -112,13 +112,13 @@ function HomePage() {
           {/* Collection rows */}
           <div className="grid grid-cols-2 gap-[46px] w-full">
             <div className="relative h-[460px] rounded-lg overflow-hidden group">
-              <img alt="Collection" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="/assets/0b4e69d700d94bbfd5d57d90be4e25a001047301.png" />
+              <img alt="Collection" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src={`${import.meta.env.BASE_URL}assets/0b4e69d700d94bbfd5d57d90be4e25a001047301.png`} />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <p className="font-satoshi font-medium text-[24px] text-white">Designer Delights Collection</p>
               </div>
             </div>
             <div className="relative h-[460px] rounded-lg overflow-hidden group">
-              <img alt="Collection" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="/assets/a902ef25ab2f5dec9f97159130043dc6e5b5ebcc.png" />
+              <img alt="Collection" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src={`${import.meta.env.BASE_URL}assets/a902ef25ab2f5dec9f97159130043dc6e5b5ebcc.png`} />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <p className="font-satoshi font-medium text-[24px] text-white">Travel Essentials Collection</p>
               </div>
@@ -130,7 +130,7 @@ function HomePage() {
       {/* Sale Banner */}
       <div className="w-full max-w-[1236px] mx-auto mt-20 px-4">
         <div className="relative h-[538px] w-[1236px] rounded-lg overflow-hidden">
-          <img alt="Sale" className="absolute inset-0 w-full h-full object-cover" src="/assets/180c9ce1700521424939141fe53023f283580e9f.png" />
+          <img alt="Sale" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/180c9ce1700521424939141fe53023f283580e9f.png`} />
           <div className="absolute inset-0 bg-black/40"></div>
           <div className="absolute content-stretch flex flex-col gap-[68px] items-start left-[14px] top-[106px] w-[604px] p-8">
             <div className="content-stretch flex flex-col gap-[17px] items-start leading-normal not-italic relative shrink-0 text-white">
@@ -164,7 +164,7 @@ function HomePage() {
               {[1, 2, 3].map((i) => (
                 <div key={i} className="flex flex-col gap-[55px] items-start relative shrink-0 w-[375px]">
                   <div className="relative shrink-0 size-[375px] rounded-lg overflow-hidden">
-                    <img alt="Article" className="absolute inset-0 w-full h-full object-cover" src={`/assets/540cee69238f1380283674594ccd6bb33bfb88f0.png`} />
+                    <img alt="Article" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/540cee69238f1380283674594ccd6bb33bfb88f0.png`} />
                   </div>
                   <div className="flex flex-col gap-[46px] items-start relative shrink-0 w-full">
                     <div className="flex flex-col gap-[5px] items-start leading-normal not-italic relative shrink-0 text-white w-full">

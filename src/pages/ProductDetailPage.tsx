@@ -28,7 +28,7 @@ function ProductDetailPage() {
       <div className="flex flex-col lg:flex-row gap-[18px] items-start justify-center w-full max-w-[1440px] mx-auto pt-10 px-4">
         <div className="flex flex-col gap-[18px] items-center relative shrink-0 w-full lg:w-auto">
           <div className="h-[400px] lg:h-[806px] relative shrink-0 w-full lg:w-[532px] rounded-lg overflow-hidden">
-            <img alt="Product" className="absolute inset-0 w-full h-full object-contain" src="/assets/883b3e6f33d87c83226418b1488f5a20b83fb9fc.png" />
+            <img alt="Product" className="absolute inset-0 w-full h-full object-contain" src={`${import.meta.env.BASE_URL}assets/883b3e6f33d87c83226418b1488f5a20b83fb9fc.png`} />
           </div>
           <div className="h-[9px] relative shrink-0 w-[24px]">
             <div className="flex gap-1">
@@ -65,7 +65,7 @@ function ProductDetailPage() {
             {['100 ml', '150 ml'].map((size, idx) => (
               <div key={size} className="content-stretch flex flex-col gap-[9px] items-center relative shrink-0">
                 <div className="h-[125px] relative shrink-0 w-[88px]">
-                  <img alt={size} className="absolute inset-0 w-full h-full object-contain" src="/assets/883b3e6f33d87c83226418b1488f5a20b83fb9fc.png" />
+                  <img alt={size} className="absolute inset-0 w-full h-full object-contain" src={`${import.meta.env.BASE_URL}assets/883b3e6f33d87c83226418b1488f5a20b83fb9fc.png`} />
                 </div>
                 <p className="font-satoshi font-bold leading-normal not-italic relative shrink-0 text-[14px] text-center text-nowrap text-white">
                   {size}
@@ -127,9 +127,9 @@ function ProductDetailPage() {
         <h2 className="font-satoshi font-medium leading-normal not-italic relative shrink-0 text-[32px] text-center text-nowrap text-white">Key Notes</h2>
         <div className="flex flex-col md:flex-row gap-[40px] md:gap-[156px] items-start relative shrink-0 w-full">
             {[
-            { title: 'Top Note', notes: 'Citrus Accord, Sun-kissed Fruits', img: '/assets/3d8b69fa8f10595e684b3a8b6cfab3fe6540b824.png' },
-            { title: 'Heart Note', notes: 'Golden Roses, Rare Blooms', img: '/assets/c0c58ed8e26d7d2977389ada5760d0886be45819.png' },
-            { title: 'Base Note', notes: 'Amber, Vanilla, Sandalwood', img: '/assets/4b3f51342c394d65281b1339f473c739a516ecfd.png' },
+            { title: 'Top Note', notes: 'Citrus Accord, Sun-kissed Fruits', img: `${import.meta.env.BASE_URL}assets/3d8b69fa8f10595e684b3a8b6cfab3fe6540b824.png` },
+            { title: 'Heart Note', notes: 'Golden Roses, Rare Blooms', img: `${import.meta.env.BASE_URL}assets/c0c58ed8e26d7d2977389ada5760d0886be45819.png` },
+            { title: 'Base Note', notes: 'Amber, Vanilla, Sandalwood', img: `${import.meta.env.BASE_URL}assets/4b3f51342c394d65281b1339f473c739a516ecfd.png` },
           ].map((note) => (
             <div key={note.title} className="flex flex-col gap-[30px] items-center relative shrink-0 w-full md:w-auto">
               <div className="font-satoshi leading-normal not-italic relative shrink-0 text-[24px] text-center text-nowrap text-white">
@@ -165,7 +165,7 @@ function ProductDetailPage() {
             {[1, 2, 3, 4].map((i) => (
               <Link key={i} to={`/products/${i}`} className="relative group shrink-0 w-[260px]">
                 <div className="h-[442px] relative w-[260px] bg-gradient-to-b from-transparent to-black/50 rounded-lg overflow-hidden">
-                  <img alt="Product" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="/assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png" />
+                  <img alt="Product" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src={`${import.meta.env.BASE_URL}assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png`} />
                 </div>
                 <div className="flex flex-col gap-[8px] items-center justify-center mt-4 not-italic relative text-nowrap">
                   <p className="font-satoshi font-medium leading-normal relative shrink-0 text-[20px] text-white">

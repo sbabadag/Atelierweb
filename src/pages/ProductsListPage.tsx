@@ -64,7 +64,7 @@ function ProductsListPage() {
               {products.slice(startIdx, startIdx + 4).map((product) => (
                 <Link key={product.id} to={`/products/${product.id}`} className="relative group w-full">
                   <div className="h-[455px] relative w-full bg-gradient-to-b from-transparent to-black/50 rounded-lg overflow-hidden">
-                    <img alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src="/assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png" />
+                    <img alt={product.name} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" src={`${import.meta.env.BASE_URL}assets/c4507d36d9cb59b39e33a66a3d32c4272f96f64b.png`} />
                   </div>
                   <div className="flex flex-col gap-[8px] items-center justify-center mt-4 relative">
                     <p className="font-satoshi font-medium leading-normal not-italic relative shrink-0 text-[20px] text-nowrap text-white">

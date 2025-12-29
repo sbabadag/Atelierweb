@@ -36,7 +36,7 @@ function BlogPage() {
             The Art of Curating a Luxury Perfume Collection: A Symphony of Scents and Stories
           </h1>
           <div className="h-[628px] relative shrink-0 w-[1236px] rounded-lg overflow-hidden">
-            <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src="/assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png" />
+            <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png`} />
           </div>
         </div>
 
@@ -55,7 +55,7 @@ function BlogPage() {
 
           <div className="content-stretch flex gap-[83px] items-center relative shrink-0">
             <div className="relative shrink-0 size-[500px] rounded-lg overflow-hidden">
-              <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src="/assets/c420b22a0c8c95fda3b9c31c753fefd08f2d0dab.png" />
+              <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/c420b22a0c8c95fda3b9c31c753fefd08f2d0dab.png`} />
             </div>
             <div className="font-inter font-normal leading-normal not-italic relative shrink-0 text-white w-[651px]">
               <h2 className="font-satoshi font-medium mb-0 text-[24px]">The Overture: Discovering Your Signature Scent</h2>
@@ -101,7 +101,7 @@ function BlogPage() {
               </p>
             </div>
             <div className="relative shrink-0 size-[500px] rounded-lg overflow-hidden">
-              <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src="/assets/4624a525ae7886c22b039d2c90c8e0778b6f5e6c.png" />
+              <img alt="Blog" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/4624a525ae7886c22b039d2c90c8e0778b6f5e6c.png`} />
             </div>
           </div>
 

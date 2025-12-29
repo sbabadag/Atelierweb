@@ -8,42 +8,42 @@ function ServicesPage() {
       number: '01.',
       title: 'Personal Fragrance Consultations',
       description: 'Choosing the right fragrance can be a deeply personal experience. Our team of knowledgeable fragrance experts is here to guide you through this process. Whether you\'re looking for a signature scent, a gift for a loved one, or need assistance in exploring new fragrance families, our consultants will take the time to understand your preferences and suggest the perfect matches.',
-      image: '/assets/5f0cbf5fc45c8ad2fcfa327322d14523d394b6b6.png',
+      image: `${import.meta.env.BASE_URL}assets/5f0cbf5fc45c8ad2fcfa327322d14523d394b6b6.png`,
       imageLeft: false
     },
     {
       number: '02.',
       title: 'Custom Fragrance Creation',
       description: 'Experience the art of bespoke perfumery with our custom fragrance creation service. Work closely with our skilled perfumers to craft a scent that is uniquely yours. From selecting individual notes to blending them into a harmonious symphony, we\'ll help you bring your fragrance vision to life. Whether it\'s a special occasion, a gift for someone dear, or simply a way to indulge in luxury, a custom-created perfume is an unforgettable experience.',
-      image: '/assets/1596ba0e25b324b2fbcf05a5ade2154cd6a840a2.png',
+      image: `${import.meta.env.BASE_URL}assets/1596ba0e25b324b2fbcf05a5ade2154cd6a840a2.png`,
       imageLeft: true
     },
     {
       number: '03.',
       title: 'Scented Gift Selection',
       description: 'Looking for a meaningful gift that leaves a lasting impression? Our scented gift selection service is designed to help you find the perfect fragrance gift for any occasion. Whether it\'s a birthday, anniversary, or a gesture of appreciation, our experts will assist you in choosing a fragrance that perfectly conveys your sentiments and makes the recipient feel cherished.',
-      image: '/assets/f78b4182ec68ae8550ba73678971703b3243b2e2.png',
+      image: `${import.meta.env.BASE_URL}assets/f78b4182ec68ae8550ba73678971703b3243b2e2.png`,
       imageLeft: false
     },
     {
       number: '04.',
       title: 'Fragrance Events and Workshops',
       description: 'Join us for fragrance-centric events and workshops that celebrate the art of perfumery. Immerse yourself in the captivating world of scents, learn from experts, and discover the nuances of different fragrance families. These events are perfect for fragrance enthusiasts and novices alike, providing a unique opportunity to expand your olfactory knowledge.',
-      image: '/assets/e59f2e07a588d36aef17ce74d8313381f093fc4e.png',
+      image: `${import.meta.env.BASE_URL}assets/e59f2e07a588d36aef17ce74d8313381f093fc4e.png`,
       imageLeft: true
     },
     {
       number: '05.',
       title: 'Eco-friendly Initiatives',
       description: 'At Local Face, we are committed to sustainability and eco-conscious practices. As part of our services, we offer guidance on selecting environmentally friendly and cruelty-free fragrances. We partner with brands that share our values and are dedicated to making a positive impact on the planet.',
-      image: '/assets/34fee038ac1f76b33b301b3d19c53c4f65849fc2.png',
+      image: `${import.meta.env.BASE_URL}assets/34fee038ac1f76b33b301b3d19c53c4f65849fc2.png`,
       imageLeft: false
     },
     {
       number: '06.',
       title: 'Online Shopping Convenience',
       description: 'Explore our carefully curated collection of perfumes from the comfort of your home. Our user-friendly website offers a seamless online shopping experience, complete with detailed product descriptions and customer reviews. You can also reach out to our customer support team for any assistance during your shopping journey.',
-      image: '/assets/9ef8792ee90705f13e6a450be22afd92767d4144.png',
+      image: `${import.meta.env.BASE_URL}assets/9ef8792ee90705f13e6a450be22afd92767d4144.png`,
       imageLeft: true
     },
   ]
@@ -63,7 +63,7 @@ function ServicesPage() {
 
       {/* Hero Section */}
       <div className="relative h-[617px] w-full mt-10">
-          <img alt="Services" className="absolute inset-0 w-full h-full object-cover" src="/assets/1891546db904dad0145c3f844217ee6535fdd133.png" />
+          <img alt="Services" className="absolute inset-0 w-full h-full object-cover" src={`${import.meta.env.BASE_URL}assets/1891546db904dad0145c3f844217ee6535fdd133.png`} />
           <div className="absolute inset-0 bg-black/71"></div>
           <div className="absolute content-stretch flex flex-col gap-[58px] items-center leading-normal left-[283px] not-italic text-center text-white top-[392px]">
             <h1 className="font-satoshi font-medium relative shrink-0 text-[50px] w-[678px]">

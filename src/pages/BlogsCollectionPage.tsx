@@ -9,37 +9,37 @@ function BlogsCollectionPage() {
       id: 1,
       title: 'Finding Your Signature Scent: A Guide to Perfume Personalities',
       description: 'Embark on a journey of self-discovery as we delve into the concept of perfume personalities. From bold and adventurous to elegant and timeless, there\'s a fragrance that perfectly complements your essence. Let us help you find your signature scent, a fragrant expression of your unique style.',
-      image: '/assets/1ffbf3cb5db5fa88e8ad8ba9b94017ba8e092ebe.png'
+      image: `${import.meta.env.BASE_URL}assets/1ffbf3cb5db5fa88e8ad8ba9b94017ba8e092ebe.png`
     },
     {
       id: 2,
       title: 'The Art of Curating a Luxury Perfume Collection: A Symphony of Scents and Stories',
       description: 'A luxury perfume collection is not just an assortment of fragrances; it is a reflection of one\'s taste, personality, and experiences. Each bottle holds a unique olfactory journey, crafted with the finest ingredients and artistic mastery.',
-      image: '/assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png'
+      image: `${import.meta.env.BASE_URL}assets/2d189f2ef3a27c30cfcd0dbcaf8f93717fe33741.png`
     },
     {
       id: 3,
       title: 'Decoding Fragrance Notes: Unraveling the Symphony of Scents',
       description: 'Ever wondered how perfumers compose their masterpieces? Unravel the mystery behind fragrance notes – top, middle, and base – and learn how each layer contributes to the overall olfactory experience of a perfume. Get ready to appreciate your favorite scents on a whole new level!',
-      image: '/assets/9186bad6e8f79a92f40857fbe4fd958ac25a3a14.png'
+      image: `${import.meta.env.BASE_URL}assets/9186bad6e8f79a92f40857fbe4fd958ac25a3a14.png`
     },
     {
       id: 4,
       title: 'The Soothing Symphony of Lavender Perfumes: Unlocking the Secrets of a Fragrant Elixir',
       description: 'Lavender, with its enchanting aroma and rich history, has been cherished for centuries as a symbol of relaxation, healing, and timeless beauty. In the world of perfumery, lavender plays a key role in creating captivating fragrances loved by many.',
-      image: '/assets/540cee69238f1380283674594ccd6bb33bfb88f0.png'
+      image: `${import.meta.env.BASE_URL}assets/540cee69238f1380283674594ccd6bb33bfb88f0.png`
     },
     {
       id: 5,
       title: 'A Journey Through Time: Unearthing Perfumery\'s Rich History',
       description: 'In our blog collection, we invite you to embark on a journey through time, where we explore the fascinating history of perfumery. From ancient civilizations to modern-day masterpieces, we unravel the tales of how scents have adorned humanity throughout the ages.',
-      image: '/assets/f46b435da74f5f268c7bb40512a07365a51aafae.png'
+      image: `${import.meta.env.BASE_URL}assets/f46b435da74f5f268c7bb40512a07365a51aafae.png`
     },
     {
       id: 6,
       title: 'The Timeless Elegance of Rose Perfumes: Unveiling the Queen of Flowers in Fragrance',
       description: 'Rose, often referred to as the "Queen of Flowers," has held a special place in human culture and history for centuries. Beyond its captivating beauty, this iconic bloom has also inspired perfumers to create some of the most timeless and exquisite fragrances in the world.',
-      image: '/assets/7c0c03e124328b135cbd8059ba34945e256b4b8f.png'
+      image: `${import.meta.env.BASE_URL}assets/7c0c03e124328b135cbd8059ba34945e256b4b8f.png`
     },
   ]
 
