@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'danilo': ['DaniloCatalina', 'sans-serif'],
-        'satoshi': ['Satoshi', 'Satoshi_Variable', 'sans-serif'],
+        'danilo': ['Inter', 'sans-serif'],
+        'satoshi': ['Inter', 'sans-serif'], // Using Inter as fallback since Satoshi fonts are not available
         'inter': ['Inter', 'sans-serif'],
         'dm-sans': ['DM Sans', 'sans-serif'],
       },
