@@ -6,7 +6,8 @@ import Heart from '../components/icons/Heart'
 import CaretLeft from '../components/icons/CaretLeft'
 
 function ProductDetailPage() {
-  const { id: _id } = useParams()
+  const params = useParams()
+  void params.id // Intentionally unused for now
 
   return (
     <div className="bg-black min-h-screen w-full">
