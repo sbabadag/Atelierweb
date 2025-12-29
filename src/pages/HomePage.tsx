@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CaretLeft from '../components/icons/CaretLeft'
-import Star from '../components/icons/Star'
 
 function HomePage() {
   return (

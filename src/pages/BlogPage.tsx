@@ -7,7 +7,7 @@ import FacebookIcon from '../components/icons/FacebookIcon'
 import LinkedinIcon from '../components/icons/LinkedinIcon'
 
 function BlogPage() {
-  const { slug } = useParams()
+  const { slug: _slug } = useParams()
 
   return (
     <div className="bg-black min-h-screen w-full">
