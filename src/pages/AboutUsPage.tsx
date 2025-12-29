@@ -18,16 +18,15 @@ function AboutUsPage() {
 
       {/* Hero Section */}
       <div className="relative h-[617px] w-full mt-10">
-          <img alt="About Us" className="absolute inset-0 w-full h-full object-cover" src="/assets/fda75aead57b1e5a68cbcdac1c1057c7fbba6db5.png" />
-          <div className="absolute inset-0 bg-black/71"></div>
-          <div className="absolute content-stretch flex flex-col gap-[58px] items-center leading-normal left-[calc(25%-15px)] not-italic text-center text-white top-[364px]">
-            <h1 className="font-inter font-medium relative shrink-0 text-[50px] w-[678px]">
-              About Us
-            </h1>
-            <p className="font-satoshi leading-normal relative shrink-0 text-[20px] w-[749px]">
-              At Local Face, we believe that perfumes are more than just scents; they are expressions of one's individuality and style. Our passion for exquisite fragrances led us to curate a collection that captures the essence of diverse personalities, bringing you an unparalleled olfactory experience.
-            </p>
-          </div>
+        <img alt="About Us" className="absolute inset-0 w-full h-full object-cover" src="/assets/fda75aead57b1e5a68cbcdac1c1057c7fbba6db5.png" />
+        <div className="absolute inset-0 bg-black/71"></div>
+        <div className="absolute content-stretch flex flex-col gap-[58px] items-center leading-normal left-[calc(25%-15px)] not-italic text-center text-white top-[364px]">
+          <h1 className="font-inter font-medium relative shrink-0 text-[50px] w-[678px]">
+            About Us
+          </h1>
+          <p className="font-satoshi leading-normal relative shrink-0 text-[20px] w-[749px]">
+            At Local Face, we believe that perfumes are more than just scents; they are expressions of one's individuality and style. Our passion for exquisite fragrances led us to curate a collection that captures the essence of diverse personalities, bringing you an unparalleled olfactory experience.
+          </p>
         </div>
       </div>
 
@@ -42,7 +41,7 @@ function AboutUsPage() {
       </div>
 
       {/* Image Section */}
-      <div className="h-[618px] w-full mt-20">
+      <div className="relative h-[618px] w-full mt-20">
         <img alt="Story" className="absolute inset-0 w-full h-full object-cover" src="/assets/1b6026a26ac9413b315b80e01043a1c5e614fee7.png" />
       </div>
 
