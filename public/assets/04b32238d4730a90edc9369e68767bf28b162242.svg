@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1995 1432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2">
+<g id="Vector" filter="url(#filter0_f_709_418)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1168.3 463.914C1236.03 478.355 1262.7 542.549 1318.26 578.574C1392.59 626.768 1530.4 627.409 1542.23 706.36C1553.83 783.86 1431.96 820.902 1362.13 871.528C1301.35 915.586 1247.5 969.191 1168.3 977.447C1079.69 986.684 983.075 971.78 920.446 917.569C858.134 863.632 855.508 782.047 855.116 706.36C854.722 630.207 852.105 544.487 918.252 493.281C982.992 443.163 1083.45 445.822 1168.3 463.914Z" fill="var(--fill-0, #20201F)"/>
+</g>
+<g id="Vector_2" filter="url(#filter1_f_709_418)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M772.694 475.635C857.42 470.565 967.967 432.314 1016.53 498.176C1066.17 565.503 973.323 647.779 959.34 728.787C949.527 785.634 983.383 847.729 948.086 894.669C908.761 946.963 840.542 977.466 772.694 976.995C705.235 976.526 652.002 932.732 599.862 892.247C539.123 845.086 461.49 802.679 453.029 728.787C444.11 650.902 494.373 575.916 557.881 525.622C616.655 479.077 696.189 480.213 772.694 475.635Z" fill="var(--fill-0, #20201F)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_709_418" x="403" y="-3.86484e-08" width="1592" height="1432" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="226" result="effect1_foregroundBlur_709_418"/>
+</filter>
+<filter id="filter1_f_709_418" x="-2.97312e-08" y="8" width="1483" height="1421" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="226" result="effect1_foregroundBlur_709_418"/>
+</filter>
+</defs>
+</svg>

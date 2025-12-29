@@ -1,0 +1,19 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 1440 617" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 3">
+<mask id="mask0_709_424" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="617">
+<rect id="Rectangle 6" width="1440" height="617" fill="var(--fill-0, black)" fill-opacity="0.71"/>
+</mask>
+<g mask="url(#mask0_709_424)">
+<rect id="Rectangle 6_2" width="1440" height="617" fill="var(--fill-0, #3C3C3C)"/>
+<ellipse id="Ellipse" cx="49.8527" cy="43.6667" rx="410.603" ry="352.669" fill="var(--fill-0, #171717)"/>
+<ellipse id="Ellipse_2" cx="287.352" cy="507.367" rx="374.871" ry="251.304" fill="var(--fill-0, #2E2E2E)"/>
+<ellipse id="Ellipse_3" cx="1397.58" cy="472.384" rx="298.84" ry="339.002" fill="var(--fill-0, #6A6A6A)"/>
+<ellipse id="Ellipse_4" cx="1197.4" cy="45.4593" rx="420.101" ry="292.983" fill="var(--fill-0, black)"/>
+<ellipse id="Ellipse_5" cx="720" cy="308.5" rx="348.164" ry="253.651" fill="var(--fill-0, #535353)"/>
+<foreignObject x="-460.8" y="-460.8" width="2361.6" height="1538.6"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(230.4px);clip-path:url(#bgblur_0_709_424_clip_path);height:100%;width:100%"></div></foreignObject><rect id="Rectangle 6_3" data-figma-bg-blur-radius="460.8" width="1440" height="617" fill="var(--fill-0, black)" fill-opacity="0.01"/>
+</g>
+</g>
+<defs>
+<clipPath id="bgblur_0_709_424_clip_path" transform="translate(460.8 460.8)"><rect width="1440" height="617"/>
+</clipPath></defs>
+</svg>
